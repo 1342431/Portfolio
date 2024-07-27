@@ -1,15 +1,21 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import Itagnok from './Itagnok'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <span>Itagnok Technologies Ltd.</span>
+    <React.Fragment>
+      <div className='App'>
+        <div>
+          <span className='company-name'>Itagnok Technologies Ltd.</span>
+        </div>
+        <div className='menu'>
+          <span className='services'>Services</span>
+          <span className='contact'>Contact us</span>
+        </div>
       </div>
-    </>
+      <Itagnok />
+    </React.Fragment>
   )
 }
 

@@ -1,21 +1,28 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Itagnok from './Itagnok'
+import Contact from './Contact'
+import Services from './Services'
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
       <div className='App'>
         <div>
-          <span className='company-name'>Itagnok Technologies Ltd.</span>
+          <Link to="/" className='company-name'>Itagnok Technologies Ltd.</Link>
         </div>
         <div className='menu'>
-          <span className='services'>Services</span>
-          <span className='contact'>Contact us</span>
+          <Link to="/services" className='services'>Services</Link>
+          <Link to="/contact" className='contact'>Contact us</Link>
         </div>
       </div>
-      <Itagnok />
-    </React.Fragment>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/" element={<Itagnok />} />
+      </Routes>
+    </Router>
   )
 }
 

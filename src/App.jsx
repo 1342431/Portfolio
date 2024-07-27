@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <span>1342431 B.C. Ltd.</span>
+        <span>Itagnok Technologies Ltd.</span>
       </div>
     </>
   )

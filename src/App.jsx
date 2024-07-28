@@ -16,7 +16,7 @@ function App() {
             <img
               className="logo"
               type="image/svg+xml"
-              src="/src/assets/small.png"
+              src="/assets/itagnokTitle.png"
               width="90"
               height="50"
             />

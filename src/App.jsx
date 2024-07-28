@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 function App() {
   const [location, setLocation] = React.useState("home");
-
+  
   return (
     <Router>
       <div className="App">
@@ -16,7 +16,7 @@ function App() {
             <img
               className="logo"
               type="image/svg+xml"
-              src="./src/assets/small.png"
+              src="../src/assets/small.png"
               width="90"
               height="50"
             />

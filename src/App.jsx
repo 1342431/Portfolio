@@ -14,7 +14,7 @@ function App() {
         <div>
           <Link to="/" onClick={() => setLocation("home")}>
             <img
-              class="logo"
+              className="logo"
               src="src/assets/itagnokTitle.png"
               width="90"
               height="50"
@@ -42,7 +42,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route
           path="/"
-          element={<Itagnok location={location} setLocation={setLocation} />}
+          element={<Itagnok setLocation={setLocation} />}
         />
       </Routes>
     </Router>

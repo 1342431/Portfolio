@@ -1,7 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-const Itagnok = ({ location, setLocation }) => {
+const Itagnok = ({ setLocation }) => {
   return (
     <div className="itagnok-container">
       <span className="description">Developing relationships</span>
@@ -15,6 +15,10 @@ const Itagnok = ({ location, setLocation }) => {
       </div>
     </div>
   );
+};
+
+Itagnok.propTypes = {
+  setLocation: PropTypes.func.isRequired
 };
 
 export default Itagnok;

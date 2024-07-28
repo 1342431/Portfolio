@@ -1,10 +1,15 @@
+import BankingLogo from "../assets/BankingLogo.png";
+import DataAnalyticsLogo from "../assets/DataAnalyticsLogo.png"
+import IotLogo from "../assets/IotLogo.png";
+import MachineLearningLogo from "../assets/MachineLearningLogo.png"
+
 const Services = () => {
   return (
     <div className="services-container">
       <div>
         <div className="flex-row">
           <img
-            src="/src/assets/BankingLogo.png"
+            src={BankingLogo}
             width="150"
             height="100"
             className="servicesLogo"
@@ -20,7 +25,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="/src/assets/IotLogo.png"
+            src={IotLogo}
             width="130"
             height="100"
             className="servicesLogo"
@@ -35,7 +40,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="/src/assets/MachineLearningLogo.png"
+            src={MachineLearningLogo}
             width="130"
             height="100"
             className="servicesLogo"
@@ -50,7 +55,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="/src/assets/DataAnalyticsLogo.png"
+            src={DataAnalyticsLogo}
             width="100"
             height="100"
             className="servicesLogo"

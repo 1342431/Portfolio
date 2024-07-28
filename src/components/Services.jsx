@@ -4,7 +4,7 @@ const Services = () => {
       <div>
         <div className="flex-row">
           <img
-            src="src/assets/BankingLogo.png"
+            src="/src/assets/BankingLogo.png"
             width="150"
             height="100"
             className="servicesLogo"
@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="src/assets/IotLogo.png"
+            src="/src/assets/IotLogo.png"
             width="130"
             height="100"
             className="servicesLogo"
@@ -35,7 +35,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="src/assets/MachineLearningLogo.png"
+            src="/src/assets/MachineLearningLogo.png"
             width="130"
             height="100"
             className="servicesLogo"
@@ -50,7 +50,7 @@ const Services = () => {
         </div>
         <div className="flex-row">
           <img
-            src="src/assets/DataAnalyticsLogo.png"
+            src="/src/assets/DataAnalyticsLogo.png"
             width="100"
             height="100"
             className="servicesLogo"

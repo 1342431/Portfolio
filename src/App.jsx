@@ -15,7 +15,8 @@ function App() {
           <Link to="/" onClick={() => setLocation("home")}>
             <img
               className="logo"
-              src="src/assets/itagnokTitle.png"
+              type="image/svg+xml"
+              src="/src/assets/itagnokTitle.png"
               width="90"
               height="50"
             />

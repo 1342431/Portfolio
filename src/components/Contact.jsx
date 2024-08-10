@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div className="container">
       <form
-        action="https://formsubmit.co/973cd4c2571691fedf98728fcac72687"
+        action="https://formsubmit.co/ashish.kongati@itagnok.ca"
         className="contact-form"
         method="POST"
       >

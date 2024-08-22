@@ -27,6 +27,8 @@
 
 .container {
   width: 100%;
+  position: relative;
+  top: -100px;
   height: calc(100vh - 100px);
   margin-left: calc(50% - 150px);
   align-content: center;

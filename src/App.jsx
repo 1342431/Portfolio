@@ -4,7 +4,7 @@ import "./App.css";
 import Itagnok from "./components/Itagnok";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
-import itagnokTitle from "./assets/itagnokTitle.png";
+import itagnokLogo from "./assets/itagnokLogo.png";
 
 function App() {
   const [location, setLocation] = React.useState("home");
@@ -17,9 +17,9 @@ function App() {
             <img
               className="logo"
               type="image/svg+xml"
-              src={itagnokTitle}
-              width="90"
-              height="50"
+              src={itagnokLogo}
+              width="300"
+              height="70"
             />
           </Link>
         </div>
